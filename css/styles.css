@@ -1,0 +1,146 @@
+
+
+
+
+
+
+body {
+
+
+    height: 100vh;
+    margin: 0em;
+    padding: 0em;
+
+    /* background-color: pink; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+#contenedorGeneral {
+
+    height: 36em;
+    width: 24em;
+
+    background-color: greenyellow;
+}
+
+#parteSuperior {
+
+    height: 20em;
+    background-color: tomato;
+
+
+}
+
+#parteSuperiorEncendido {
+
+    height: 2.5em;
+    background-color: gray;
+}
+
+#parteSuperiorPantalla {
+    height: 14em;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+}
+
+#pantallaBordeIzquierdo {
+
+    width: 2em;
+    background-color: gray;
+}
+
+#pantallaCentral {
+
+    width: 20em;
+    background-color: orange;
+}
+
+#pantallaCentralArriba {
+
+    height: 3em;
+    background-color: pink;
+
+}
+
+#pantallaCentralCristal {
+
+    height: 9em;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#botonBattery {
+
+    width: 3em;
+    background-color: purple;
+}
+
+#lcd {
+
+    width: 14em;
+    background-color: black;
+}
+
+#lcdDerecha {
+
+    width: 3em;
+    background-color: purple;
+}
+
+#pantallaCentralAbajo {
+
+    height: 2em;
+    background-color: moccasin;
+    display: flex;
+    flex-direction: row;
+}
+
+#abajoIzquierda {
+    width: 16em;
+    background-color: red;
+    border-radius: 0em 0em 0em 0.5em;
+
+}
+
+#abajoRadius {
+    width: 4em;
+    background-color: red;
+    border-radius: 0em 0em 10em 0em;
+
+}
+
+
+
+#pantallaBordeDerecho {
+
+    width: 2em;
+    background-color: gray;
+}
+
+#parteSuperiorLogo {
+    height: 3.5em;
+    background-color: gray;
+}
+
+#parteCentral {
+
+    height: 10em;
+    background-color: yellow;
+}
+
+#parteInferior {
+
+    height: 6em;
+    background-color: green;
+}
+
+
