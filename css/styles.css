@@ -66,7 +66,62 @@ body {
 
     height: 3em;
     background-color: pink;
+    display: flex;
+    flex-direction: row;
+}
+#matrixIzquierda {
+    background-color: purple;
+    width: 6em;
+    border-radius: 1em 0em 0em 0em;
+    display: flex;
+    flex-direction: column;
+    
+}
+#azul {
+    background-color: red;
+    height: 0.15em;
+    margin-left: 1em;
+    margin-top: 1em;
+    
+}
+#roja {
+    background-color: blue;
+    height: 0.15em;
+    margin-left: 1em;
+    margin-top: 0.5em;
 
+}
+#matrix {
+    background-color: blue;
+    width: 11em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#letraMatrix {
+    color: white;
+    font-size: x-small;
+    margin-bottom: 0.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+#matrixDerecha {
+    background-color: green;
+    width: 3em;
+    border-radius: 0em 1em 0em 0em;
+}
+#azul2 {
+    background-color: red;
+    height: 0.15em;
+    margin-right: 1em;
+    margin-top: 1em;
+
+}
+#roja2 {
+    background-color: blue;
+    height: 0.15em;
+    margin-right: 1em;
+    margin-top: 0.5em;
 }
 
 #pantallaCentralCristal {
@@ -82,6 +137,60 @@ body {
 
     width: 3em;
     background-color: purple;
+    flex-direction: column;
+}
+
+#batteryArriba {
+    background-color: blue;
+    height: 2em;
+
+}
+
+#batteryCentral {
+    background-color: brown;
+    height: 2em;
+}
+
+#puntoBattery {
+    background-color: gray;
+    height: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#iconoBattery {
+    background: rgb(25,4,4);
+    background: linear-gradient(90deg, rgba(25,4,4,1) 0%, rgba(70,19,19,1) 50%, rgba(172,9,9,1) 97%);
+    height: 0.5em;
+    width: 0.5em;
+    margin-right: 1em;
+    border-radius: 50%;
+}
+#letraBattery {
+    background-color: gray;
+    height: 1em;
+    display: flex;
+    justify-content: center;
+    
+
+}
+#battery {
+    background-color: gray;
+    height: 0.5em;
+    color: white;
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#batteryAbajo {
+    background-color: blue;
+    height: 5em;
+
+
 }
 
 #lcd {
@@ -107,7 +216,7 @@ body {
 #abajoIzquierda {
     width: 16em;
     background-color: red;
-    border-radius: 0em 0em 0em 0.5em;
+    border-radius: 0em 0em 0em 1em;
 
 }
 
