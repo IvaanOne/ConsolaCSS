@@ -40,7 +40,7 @@ body {
 #parteSuperiorEncendido {
 
     height: 2.5em;
-    background-color: darkgrey;
+    background-color: gainsboro;
     border-radius: 1em 1em 0em 0em;
     display: flex;
     flex-direction: column;
@@ -54,15 +54,23 @@ body {
     
 }
 #rayaIzquierda {
-    background-color: gainsboro;
-    height: 1.25em;
+    background-color: whitesmoke;
+    border: 0.01em ridge rgba(0, 0, 0, 0.300);
+    box-shadow: inset 0px 0px 2px 0.5px rgba(0,0,0,0.75);
+
+    z-index: 100;
+    border-bottom: none;
+    border-top: none;
+    height: 1.30em;
     width: 0.25em;
     margin-left: 1.75em;
 
 }
 #onOff {
     background-color: gainsboro;
-    border: 0.01em ridge black;
+    
+    border: 0.01em ridge rgba(0, 0, 0, 0.300);
+    box-shadow: inset 0px 0px 2px 0.5px rgba(0,0,0,0.75);
     margin-left: 0.75em;
     margin-top: 0.25em;
     width: 4.75em;
@@ -74,16 +82,22 @@ body {
 }
 #letraOnOff {
     
-    margin-bottom: 0.05em;
+    margin-bottom: 0.075em;
     font-size: small;
     color: white;
+    -webkit-text-stroke: 0.01em rgba(0, 0, 0, 0.744)
       
 }
 #rayaDerecha{
-    background-color: gainsboro;
+    background-color: whitesmoke;
+    border: 0.01em ridge rgba(0, 0, 0, 0.300);
+    box-shadow: inset 0px 0px 2px 0.5px rgba(0,0,0,0.75);
     margin-left: 14.35em;
+    z-index: 20;
+    border-bottom: none;
+    border-top: none;
     width: 0.25em;
-    height: 1.25em;
+    height: 1.30em;
 
 }
 #encendidoAbajo {
@@ -92,7 +106,11 @@ body {
     height: 1.25em;
 }
 #rayaLarga {
-    background-color: gainsboro;
+    background-color: whitesmoke;
+    border: 0.01em ridge rgba(0, 0, 0, 0.300);
+    box-shadow: inset 0px 0px 2px 0.5px rgba(0,0,0,0.75);
+    border-left: none;
+    border-right: none;
     height: 0.25em;
     width: 24em;
 }
@@ -107,7 +125,7 @@ body {
 #pantallaBordeIzquierdo {
 
     width: 2em;
-    background-color: gray;
+    background-color: gainsboro;
 }
 
 #pantallaCentral {
@@ -124,9 +142,12 @@ body {
     flex-direction: row;
 }
 #matrixIzquierda {
-    background-color: purple;
+    background-color: gray;
     width: 6em;
     border-radius: 0.5em 0em 0em 0em;
+    border: solid rgba(56, 55, 55, 0.336);
+    border-bottom: none;
+    border-right: none;
     display: flex;
     flex-direction: column;
     
@@ -146,8 +167,12 @@ body {
 
 }
 #matrix {
-    background-color: blue;
+    background-color: gray;
     width: 11em;
+    border: solid rgba(56, 55, 55, 0.336);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
     color: white;
     display: flex;
     justify-content: center;
@@ -160,9 +185,12 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 #matrixDerecha {
-    background-color: green;
+    background-color: gray;
     width: 3em;
     border-radius: 0em 0.5em 0em 0em;
+    border: solid rgba(56, 55, 55, 0.336);
+    border-left: none;
+    border-bottom: none;
 }
 #azul2 {
     background-color: red;
@@ -195,8 +223,12 @@ body {
 }
 
 #batteryArriba {
-    background-color: blue;
+    background-color: gray;
     height: 2em;
+    border: solid rgba(56, 55, 55, 0.336);
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
 
 }
 
@@ -208,6 +240,10 @@ body {
 #puntoBattery {
     background-color: gray;
     height: 1em;
+    border: solid rgba(56, 55, 55, 0.336);
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -226,6 +262,10 @@ body {
     height: 1em;
     display: flex;
     justify-content: center;
+    border: solid rgba(56, 55, 55, 0.336);
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
     
 
 }
@@ -241,8 +281,12 @@ body {
 }
 
 #batteryAbajo {
-    background-color: blue;
+    background-color: gray;
     height: 5em;
+    border: solid rgba(56, 55, 55, 0.336);
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
 
 
 }
@@ -252,6 +296,7 @@ body {
     width: 14em;
     background: rgb(1,8,2);
     background: linear-gradient(90deg, rgba(1,8,2,0.9726027397260274) 2%, rgba(8,46,12,1) 9%, rgba(10,61,15,0.9726027397260274) 51%, rgba(3,28,9,1) 96%, rgba(24,18,10,1) 99%);
+    box-shadow: inset 0px 0px 19px 12px rgba(0,0,0,0.75);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,15 +306,29 @@ body {
     color: rgb(7, 1, 24);
     height: 3m;
     width: 5em;
-    font-size: x-large;
-    font-family: 'Courier New', Courier, monospace
+    display: flex;
+    justify-content: center;
+}
+#nintendoLetra {
     
+    margin-left: 1.75em;
+    margin-top: 0.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: large;
+    color: blue;
+    height: 2em;
+    width: 5em;
 }
 
 #lcdDerecha {
 
     width: 3em;
-    background-color: purple;
+    background-color: gray;
+    border: solid rgba(56, 55, 55, 0.336);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
 }
 
 #pantallaCentralAbajo {
@@ -282,15 +341,21 @@ body {
 
 #abajoIzquierda {
     width: 16em;
-    background-color: red;
+    background-color: gray;
     border-radius: 0em 0em 0em 0.5em;
+    border: solid rgba(56, 55, 55, 0.336);
+    border-top: none;
+    border-right: none;
 
 }
 
 #abajoRadius {
     width: 4em;
-    background-color: red;
+    background-color: gray;
     border-radius: 0em 0em 10em 0em;
+    border: solid rgba(56, 55, 55, 0.336);
+    border-top: none;
+    border-left: none;
 
 }
 
@@ -299,24 +364,64 @@ body {
 #pantallaBordeDerecho {
 
     width: 2em;
-    background-color: gray;
+    background-color: gainsboro;
 }
 
 #parteSuperiorLogo {
     height: 3.5em;
-    background-color: gray;
+    background-color:gainsboro;
+    display: flex;
+    flex-direction: row;
+}
+#nintendo1 {
+    /* background-color: yellow; */
+    align-items: flex-end;
+    height: 3.5em;
+    width: 7.5em;
+    margin-left: 0.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: blue;
+}
+#gameBoy {
+    /* background-color: green; */
+    height: 3.5em;
+    width: 7.5em;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+
+}
+#gameBoyLetra{
+    margin-top: 0.25em;
+    height: 1em;
+    width: 5em;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+}
+#tm {
+    /* background-color: purple; */
+    margin-top: 0.9em;
+    color: blue;
+    font-weight: bold;
+    height: 1em;
+    width: 2em;
 }
 
 #parteCentral {
 
     height: 10em;
-    background-color: yellow;
+    background-color: gainsboro;
 }
 
 #parteInferior {
 
     height: 6em;
-    background-color: green;
+    background-color: gainsboro;
 }
 
 
