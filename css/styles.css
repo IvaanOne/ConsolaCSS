@@ -11,7 +11,7 @@ body {
     margin: 0em;
     padding: 0em;
 
-    /* background-color: pink; */
+    background-color: skyblue;
 
     display: flex;
     justify-content: center;
@@ -26,13 +26,13 @@ body {
     height: 36em;
     width: 24em;
 
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
 }
 
 #parteSuperior {
 
     height: 20em;
-    background-color: tomato;
+    /* background-color: white; */
 
 
 }
@@ -40,12 +40,66 @@ body {
 #parteSuperiorEncendido {
 
     height: 2.5em;
-    background-color: gray;
+    background-color: darkgrey;
+    border-radius: 1em 1em 0em 0em;
+    display: flex;
+    flex-direction: column;
+}
+#encendidoArriba {
+    /* background-color: blue; */
+    width: 24em;
+    height: 1.25em;
+    display: flex;
+    flex-direction: row;
+    
+}
+#rayaIzquierda {
+    background-color: gainsboro;
+    height: 1.25em;
+    width: 0.25em;
+    margin-left: 1.75em;
+
+}
+#onOff {
+    background-color: gainsboro;
+    border: 0.01em ridge black;
+    margin-left: 0.75em;
+    margin-top: 0.25em;
+    width: 4.75em;
+    height: 0.75em;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#letraOnOff {
+    
+    margin-bottom: 0.05em;
+    font-size: small;
+    color: white;
+      
+}
+#rayaDerecha{
+    background-color: gainsboro;
+    margin-left: 14.35em;
+    width: 0.25em;
+    height: 1.25em;
+
+}
+#encendidoAbajo {
+    /* background-color: yellow; */
+    width: 24em;
+    height: 1.25em;
+}
+#rayaLarga {
+    background-color: gainsboro;
+    height: 0.25em;
+    width: 24em;
 }
 
 #parteSuperiorPantalla {
     height: 14em;
-    background-color: brown;
+    /* background-color: brown; */
     display: flex;
     flex-direction: row;
 }
@@ -59,20 +113,20 @@ body {
 #pantallaCentral {
 
     width: 20em;
-    background-color: orange;
+    /* background-color: orange; */
 }
 
 #pantallaCentralArriba {
 
     height: 3em;
-    background-color: pink;
+    /* background-color: pink; */
     display: flex;
     flex-direction: row;
 }
 #matrixIzquierda {
     background-color: purple;
     width: 6em;
-    border-radius: 1em 0em 0em 0em;
+    border-radius: 0.5em 0em 0em 0em;
     display: flex;
     flex-direction: column;
     
@@ -108,7 +162,7 @@ body {
 #matrixDerecha {
     background-color: green;
     width: 3em;
-    border-radius: 0em 1em 0em 0em;
+    border-radius: 0em 0.5em 0em 0em;
 }
 #azul2 {
     background-color: red;
@@ -127,7 +181,7 @@ body {
 #pantallaCentralCristal {
 
     height: 9em;
-    background-color: gainsboro;
+    /* background-color: gainsboro; */
     display: flex;
     flex-direction: row;
 
@@ -196,7 +250,20 @@ body {
 #lcd {
 
     width: 14em;
-    background-color: black;
+    background: rgb(1,8,2);
+    background: linear-gradient(90deg, rgba(1,8,2,0.9726027397260274) 2%, rgba(8,46,12,1) 9%, rgba(10,61,15,0.9726027397260274) 51%, rgba(3,28,9,1) 96%, rgba(24,18,10,1) 99%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nintendo {
+    
+    color: rgb(7, 1, 24);
+    height: 3m;
+    width: 5em;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace
+    
 }
 
 #lcdDerecha {
@@ -208,7 +275,7 @@ body {
 #pantallaCentralAbajo {
 
     height: 2em;
-    background-color: moccasin;
+    /* background-color: moccasin; */
     display: flex;
     flex-direction: row;
 }
@@ -216,7 +283,7 @@ body {
 #abajoIzquierda {
     width: 16em;
     background-color: red;
-    border-radius: 0em 0em 0em 1em;
+    border-radius: 0em 0em 0em 0.5em;
 
 }
 
