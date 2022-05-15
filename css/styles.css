@@ -25,6 +25,7 @@ body {
 
     height: 36em;
     width: 24em;
+    border-radius: 1em 1em 5em 0.5em;
 
     background-color: gainsboro;
 }
@@ -471,8 +472,8 @@ body {
     height: 1.25em;
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.75);
     border-radius: 50%;
-    background: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(110,110,110,1) 0%, rgba(0,0,0,1) 0%, rgba(63,61,61,1) 0%, rgba(0,0,0,1) 29%, rgba(25,25,25,1) 43%, rgba(6,6,6,1) 62%, rgba(23,23,23,1) 81%, rgba(8,8,8,1) 86%, rgba(28,28,28,1) 94%);
+    background: rgb(101,99,99);
+    background: radial-gradient(circle, rgba(101,99,99,1) 0%, rgba(60,60,60,1) 0%, rgba(29,29,29,1) 2%, rgba(46,46,46,1) 62%, rgba(27,27,27,1) 79%, rgba(0,0,0,1) 100%);
 }
 #cruceta3 {
     background-color: black;
@@ -484,8 +485,8 @@ body {
     border-left: none;
 }
 #cruceta1, #cruceta2, #cruceta3 {
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(110,110,110,1) 3%, rgba(0,0,0,1) 7%, rgba(63,61,61,1) 18%, rgba(0,0,0,1) 29%, rgba(25,25,25,1) 43%, rgba(6,6,6,1) 62%, rgba(23,23,23,1) 81%, rgba(8,8,8,1) 86%, rgba(28,28,28,1) 94%);
+    background: rgb(101,99,99);
+    background: linear-gradient(73deg, rgba(101,99,99,1) 0%, rgba(60,60,60,1) 0%, rgba(29,29,29,1) 2%, rgba(46,46,46,1) 62%, rgba(27,27,27,1) 79%, rgba(0,0,0,1) 100%);
 }
 #botonA {
     background-color: rgb(169, 5, 104);
@@ -501,15 +502,19 @@ body {
 }
 #letraA {
     margin-left: 9.5em;
+    margin-top: 0.25em;
     color: blue;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    transform: rotate(-27deg);
 }
 #letraB {
     margin-left: 3.5em;
+    margin-top: 0.25em;
     color: blue;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    transform: rotate(-27deg);
 }
 #botonB {
     background: rgb(85,1,51);
@@ -548,16 +553,18 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: small;
-    margin-left: 9.5em;
+    margin-left: 10em;
     transform: rotate(-27deg);
+    margin-top: 0.5em;
 }
 #letraStart {
     color: blue;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: small;
-    margin-left: 1.25em;
+    margin-left: 2em;
     transform: rotate(-27deg);
+    margin-top: 0.5em;
 }
 #start {
     background: rgb(202,199,199);
@@ -569,12 +576,20 @@ body {
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.75);
     transform: rotate(-27deg);
 }
-#a {
+#rejilla {
+    height: 100%;
+    width: 100%;
 
 }
 
-#b {
-
+#botonA:hover, #botonB:hover, #start:hover, #select:hover, #cruceta1:hover, #cruceta2:hover, #cruceta3:hover, #crucetaRedonda:hover {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+  animation: pulse 1s;
+  box-shadow: 0.5em 1em 0.5em 2em transparent;
 }
+
+
+
 
 
