@@ -188,7 +188,7 @@ body {
 #letraMatrix {
     color: white;
     font-size: x-small;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.10em;
     font-family: 'Courier New', Courier, monospace;
 }
 #matrixDerecha {
