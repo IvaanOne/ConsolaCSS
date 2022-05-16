@@ -1,12 +1,4 @@
-
-
-
-
-
-
 body {
-
-
     height: 100vh;
     margin: 0em;
     padding: 0em;
@@ -16,8 +8,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    
 }
 
 
@@ -26,7 +16,6 @@ body {
     height: 36em;
     width: 24em;
     border-radius: 1em 1em 5em 0.5em;
-
     background-color: gainsboro;
 }
 
@@ -34,12 +23,9 @@ body {
 
     height: 20em;
     /* background-color: white; */
-
-
 }
 
 #parteSuperiorEncendido {
-
     height: 2.5em;
     background-color: gainsboro;
     border-radius: 1em 1em 0em 0em;
@@ -48,18 +34,20 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 #encendidoArriba {
     /* background-color: blue; */
     width: 24em;
     height: 1.25em;
     display: flex;
     flex-direction: row;
-    
+
 }
+
 #rayaIzquierda {
     background-color: whitesmoke;
     border: 0.01em ridge rgba(0, 0, 0, 0.300);
-    box-shadow: inset 0px 0px 2px 0.5px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 2px 0.5px rgba(0, 0, 0, 0.75);
 
     z-index: 100;
     border-bottom: none;
@@ -69,11 +57,12 @@ body {
     margin-left: 1.75em;
 
 }
+
 #onOff {
     background-color: gainsboro;
-    
+
     border: 0.01em ridge rgba(0, 0, 0, 0.300);
-    box-shadow: inset 0px 0px 2px 0.5px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 2px 0.5px rgba(0, 0, 0, 0.75);
     margin-left: 0.75em;
     margin-top: 0.25em;
     width: 4.75em;
@@ -83,18 +72,19 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 #letraOnOff {
-    
+
     margin-bottom: 0.075em;
     font-size: small;
     color: white;
     -webkit-text-stroke: 0.01em rgba(0, 0, 0, 0.744)
-      
 }
-#rayaDerecha{
+
+#rayaDerecha {
     background-color: whitesmoke;
     border: 0.01em ridge rgba(0, 0, 0, 0.300);
-    box-shadow: inset 0px 0px 2px 0.5px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 2px 0.5px rgba(0, 0, 0, 0.75);
     margin-left: 14.35em;
     z-index: 20;
     border-bottom: none;
@@ -103,15 +93,17 @@ body {
     height: 1.30em;
 
 }
+
 #encendidoAbajo {
     /* background-color: yellow; */
     width: 24em;
     height: 1.25em;
 }
+
 #rayaLarga {
     background-color: whitesmoke;
     border: 0.01em ridge rgba(0, 0, 0, 0.300);
-    box-shadow: inset 0px 0px 2px 0.5px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 2px 0.5px rgba(0, 0, 0, 0.75);
     border-left: none;
     border-right: none;
     height: 0.25em;
@@ -148,6 +140,7 @@ body {
     display: flex;
     flex-direction: row;
 }
+
 #matrixIzquierda {
     background-color: gray;
     width: 6em;
@@ -157,15 +150,17 @@ body {
     border-right: none;
     display: flex;
     flex-direction: column;
-    
+
 }
+
 #azul {
     background-color: red;
     height: 0.15em;
     margin-left: 1em;
     margin-top: 1em;
-    
+
 }
+
 #roja {
     background-color: blue;
     height: 0.15em;
@@ -173,6 +168,7 @@ body {
     margin-top: 0.5em;
 
 }
+
 #matrix {
     background-color: gray;
     width: 11em;
@@ -185,12 +181,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 #letraMatrix {
     color: white;
     font-size: x-small;
     margin-bottom: 0.10em;
     font-family: 'Courier New', Courier, monospace;
 }
+
 #matrixDerecha {
     background-color: gray;
     width: 3em;
@@ -199,6 +197,7 @@ body {
     border-left: none;
     border-bottom: none;
 }
+
 #azul2 {
     background-color: red;
     height: 0.15em;
@@ -206,6 +205,7 @@ body {
     margin-top: 1em;
 
 }
+
 #roja2 {
     background-color: blue;
     height: 0.15em;
@@ -256,14 +256,16 @@ body {
     align-items: center;
 
 }
+
 #iconoBattery {
-    background: rgb(25,4,4);
-    background: linear-gradient(90deg, rgba(25,4,4,1) 0%, rgba(70,19,19,1) 50%, rgba(172,9,9,1) 97%);
+    background: rgb(25, 4, 4);
+    background: linear-gradient(90deg, rgba(25, 4, 4, 1) 0%, rgba(70, 19, 19, 1) 50%, rgba(172, 9, 9, 1) 97%);
     height: 0.5em;
     width: 0.5em;
     margin-right: 1em;
     border-radius: 50%;
 }
+
 #letraBattery {
     background-color: gray;
     height: 1em;
@@ -273,9 +275,10 @@ body {
     border-top: none;
     border-right: none;
     border-bottom: none;
-    
+
 
 }
+
 #battery {
     background-color: gray;
     height: 0.5em;
@@ -284,7 +287,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Courier New', Courier, monospace;
-    
+
 }
 
 #batteryAbajo {
@@ -301,23 +304,25 @@ body {
 #lcd {
 
     width: 14em;
-    background: rgb(1,8,2);
-    background: linear-gradient(90deg, rgba(1,8,2,0.9726027397260274) 2%, rgba(8,46,12,1) 9%, rgba(10,61,15,0.9726027397260274) 51%, rgba(3,28,9,1) 96%, rgba(24,18,10,1) 99%);
-    box-shadow: inset 0px 0px 19px 12px rgba(0,0,0,0.75);
+    background: rgb(1, 8, 2);
+    background: linear-gradient(90deg, rgba(1, 8, 2, 0.9726027397260274) 2%, rgba(8, 46, 12, 1) 9%, rgba(10, 61, 15, 0.9726027397260274) 51%, rgba(3, 28, 9, 1) 96%, rgba(24, 18, 10, 1) 99%);
+    box-shadow: inset 0px 0px 19px 12px rgba(0, 0, 0, 0.75);
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #nintendo {
-    
+
     color: rgb(7, 1, 24);
     height: 3m;
     width: 5em;
     display: flex;
     justify-content: center;
 }
+
 #nintendoLetra {
-    
+
     margin-left: 1.75em;
     margin-top: 0.5em;
     font-family: 'Courier New', Courier, monospace;
@@ -380,13 +385,14 @@ body {
 
 #parteSuperiorLogo {
     height: 3.5em;
-    background-color:gainsboro;
+    background-color: gainsboro;
     display: flex;
     flex-direction: row;
     border: solid rgba(56, 55, 55, 0.336);
     border-top: none;
     border-bottom: none;
 }
+
 #nintendo1 {
     /* background-color: yellow; */
     align-items: flex-end;
@@ -397,6 +403,7 @@ body {
     font-weight: bolder;
     color: blue;
 }
+
 #gameBoy {
     /* background-color: green; */
     height: 3.5em;
@@ -407,7 +414,8 @@ body {
     font-weight: bold;
 
 }
-#gameBoyLetra{
+
+#gameBoyLetra {
     margin-top: 0.25em;
     height: 1em;
     width: 5em;
@@ -417,6 +425,7 @@ body {
     font-style: italic;
     font-weight: bold;
 }
+
 #tm {
     /* background-color: purple; */
     margin-top: 0.9em;
@@ -444,20 +453,22 @@ body {
     display: flex;
     align-items: center;
 }
+
 #cruceta1 {
     background-color: black;
     width: 2em;
     height: 2em;
-    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.75);
     border-radius: 0.25em 0em 0em 0.25em;
     border: solid rgba(56, 55, 55, 0.336);
     border-right: none;
 }
+
 #cruceta2 {
     background-color: black;
     width: 2em;
     height: 6em;
-    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.75);
     border-radius: 0.25em 0.25em 0.25em 0.25em;
     border: solid rgba(56, 55, 55, 0.336);
     border-left: none;
@@ -466,40 +477,47 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 #redondaCruceta {
 
     width: 1.25em;
     height: 1.25em;
-    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.75);
     border-radius: 50%;
-    background: rgb(101,99,99);
-    background: radial-gradient(circle, rgba(101,99,99,1) 0%, rgba(60,60,60,1) 0%, rgba(29,29,29,1) 2%, rgba(46,46,46,1) 62%, rgba(27,27,27,1) 79%, rgba(0,0,0,1) 100%);
+    background: rgb(101, 99, 99);
+    background: radial-gradient(circle, rgba(101, 99, 99, 1) 0%, rgba(60, 60, 60, 1) 0%, rgba(29, 29, 29, 1) 2%, rgba(46, 46, 46, 1) 62%, rgba(27, 27, 27, 1) 79%, rgba(0, 0, 0, 1) 100%);
 }
+
 #cruceta3 {
     background-color: black;
     width: 2em;
     height: 2em;
-    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.75);
     border-radius: 0em 0.25em 0.25em 0em;
     border: solid rgba(56, 55, 55, 0.336);
     border-left: none;
 }
-#cruceta1, #cruceta2, #cruceta3 {
-    background: rgb(101,99,99);
-    background: linear-gradient(73deg, rgba(101,99,99,1) 0%, rgba(60,60,60,1) 0%, rgba(29,29,29,1) 2%, rgba(46,46,46,1) 62%, rgba(27,27,27,1) 79%, rgba(0,0,0,1) 100%);
+
+#cruceta1,
+#cruceta2,
+#cruceta3 {
+    background: rgb(101, 99, 99);
+    background: linear-gradient(73deg, rgba(101, 99, 99, 1) 0%, rgba(60, 60, 60, 1) 0%, rgba(29, 29, 29, 1) 2%, rgba(46, 46, 46, 1) 62%, rgba(27, 27, 27, 1) 79%, rgba(0, 0, 0, 1) 100%);
 }
+
 #botonA {
     background-color: rgb(169, 5, 104);
-    background: rgb(85,1,51);
-    background: radial-gradient(circle, rgba(85,1,51,1) 0%, rgba(154,0,104,1) 86%, rgba(205,0,139,1) 87%, rgba(205,205,205,1) 94%);
+    background: rgb(85, 1, 51);
+    background: radial-gradient(circle, rgba(85, 1, 51, 1) 0%, rgba(154, 0, 104, 1) 86%, rgba(205, 0, 139, 1) 87%, rgba(205, 205, 205, 1) 94%);
     border-radius: 50%;
     width: 3em;
     height: 3em;
     margin-left: 7em;
     margin-top: 3em;
     border: solid rgba(56, 55, 55, 0.336);
-    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.75);
 }
+
 #letraA {
     margin-left: 9.5em;
     margin-top: 0.25em;
@@ -508,6 +526,7 @@ body {
     font-weight: bold;
     transform: rotate(-27deg);
 }
+
 #letraB {
     margin-left: 3.5em;
     margin-top: 0.25em;
@@ -516,17 +535,19 @@ body {
     font-weight: bold;
     transform: rotate(-27deg);
 }
+
 #botonB {
-    background: rgb(85,1,51);
-    background: radial-gradient(circle, rgba(85,1,51,1) 0%, rgba(154,0,104,1) 86%, rgba(205,0,139,1) 87%, rgba(205,205,205,1) 94%);
+    background: rgb(85, 1, 51);
+    background: radial-gradient(circle, rgba(85, 1, 51, 1) 0%, rgba(154, 0, 104, 1) 86%, rgba(205, 0, 139, 1) 87%, rgba(205, 205, 205, 1) 94%);
     border-radius: 50%;
     width: 3em;
     height: 3em;
     margin-left: 1em;
     margin-top: 1em;
     border: solid rgba(56, 55, 55, 0.336);
-    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.75);
 }
+
 #parteInferior {
 
     height: 6em;
@@ -538,16 +559,17 @@ body {
 }
 
 #select {
-    
+
     width: 2.5em;
     height: 0.75em;
     border-radius: 1em 1em 1em 1em;
     margin-left: 8em;
-    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.75);
-    background: rgb(202,199,199);
-    background: linear-gradient(180deg, rgba(202,199,199,1) 0%, rgba(149,149,149,1) 5%, rgba(130,128,128,1) 22%, rgba(134,134,134,1) 62%, rgba(110,110,110,1) 79%, rgba(63,61,61,1) 100%);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.75);
+    background: rgb(202, 199, 199);
+    background: linear-gradient(180deg, rgba(202, 199, 199, 1) 0%, rgba(149, 149, 149, 1) 5%, rgba(130, 128, 128, 1) 22%, rgba(134, 134, 134, 1) 62%, rgba(110, 110, 110, 1) 79%, rgba(63, 61, 61, 1) 100%);
     transform: rotate(-27deg);
 }
+
 #letraSelect {
     color: blue;
     font-family: 'Courier New', Courier, monospace;
@@ -557,6 +579,7 @@ body {
     transform: rotate(-27deg);
     margin-top: 0.5em;
 }
+
 #letraStart {
     color: blue;
     font-family: 'Courier New', Courier, monospace;
@@ -566,30 +589,34 @@ body {
     transform: rotate(-27deg);
     margin-top: 0.5em;
 }
+
 #start {
-    background: rgb(202,199,199);
-    background: linear-gradient(180deg, rgba(202,199,199,1) 0%, rgba(149,149,149,1) 5%, rgba(130,128,128,1) 22%, rgba(134,134,134,1) 62%, rgba(110,110,110,1) 79%, rgba(63,61,61,1) 100%);
+    background: rgb(202, 199, 199);
+    background: linear-gradient(180deg, rgba(202, 199, 199, 1) 0%, rgba(149, 149, 149, 1) 5%, rgba(130, 128, 128, 1) 22%, rgba(134, 134, 134, 1) 62%, rgba(110, 110, 110, 1) 79%, rgba(63, 61, 61, 1) 100%);
     width: 2.5em;
     height: 0.75em;
     border-radius: 1em 1em 1em 1em;
     margin-left: 1em;
-    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.75);
     transform: rotate(-27deg);
 }
+
 #rejilla {
     height: 100%;
     width: 100%;
 
 }
 
-#botonA:hover, #botonB:hover, #start:hover, #select:hover, #cruceta1:hover, #cruceta2:hover, #cruceta3:hover, #crucetaRedonda:hover {
-  animation: pulse 1s;
-  box-shadow: 0 0 0 2em transparent;
-  animation: pulse 1s;
-  box-shadow: 0.5em 1em 0.5em 2em transparent;
+#botonA:active,
+#botonB:active,
+#start:active,
+#select:active,
+#cruceta1:active,
+#cruceta2:active,
+#cruceta3:active,
+#crucetaRedonda:active {
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2em transparent;
+    animation: pulse 1s;
+    box-shadow: 0.5em 1em 0.5em 2em transparent;
 }
-
-
-
-
-
